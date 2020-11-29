@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/db_test?useSSL=true&serverTimezone=UTC&characterEncoding=UTF8
+    username: c3
+    password: c3
+
+#mybatis:
+#  mapper-locations:
+#    - classpath:mapper/*.xml
+#    - classpath:com/**/mapper/.xml
